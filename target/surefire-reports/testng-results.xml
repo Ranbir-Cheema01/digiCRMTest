@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+    <line>
+      <![CDATA[Contacts Page Header:Contacts]]>
+    </line>
+    <line>
+      <![CDATA[Actual Title:Cogmento CRM]]>
+    </line>
+    <line>
+      <![CDATA[Thank you. If this account is registered you will receive an email with a password reset link.]]>
+    </line>
+    <line>
+      <![CDATA[Deals Page Header: Deals]]>
+    </line>
+    <line>
+      <![CDATA[User Name Displayednaren gundimeda]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="163778" started-at="2020-02-08T16:16:57Z" finished-at="2020-02-08T16:19:41Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="163778" started-at="2020-02-08T16:16:57Z" finished-at="2020-02-08T16:19:41Z">
+      <class name="com.digiCRMTest.autoqa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.LoginPageTest@4cb2c100]" name="setUp" is-config="true" duration-ms="12731" started-at="2020-02-08T16:17:37Z" finished-at="2020-02-08T16:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.digiCRMTest.autoqa.testcases.LoginPageTest@4cb2c100]" name="loginPageTitleTest" duration-ms="7" started-at="2020-02-08T16:17:49Z" finished-at="2020-02-08T16:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.LoginPageTest@4cb2c100]" name="tearDown" is-config="true" duration-ms="601" started-at="2020-02-08T16:17:49Z" finished-at="2020-02-08T16:17:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.LoginPageTest@4cb2c100]" name="setUp" is-config="true" duration-ms="24430" started-at="2020-02-08T16:17:50Z" finished-at="2020-02-08T16:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.digiCRMTest.autoqa.testcases.LoginPageTest@4cb2c100]" name="LoginTest" duration-ms="198" started-at="2020-02-08T16:18:14Z" depends-on-methods="com.digiCRMTest.autoqa.testcases.LoginPageTest.loginPageTitleTest" finished-at="2020-02-08T16:18:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Actual Title:Cogmento CRM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.LoginPageTest@4cb2c100]" name="tearDown" is-config="true" duration-ms="597" started-at="2020-02-08T16:18:15Z" finished-at="2020-02-08T16:18:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.LoginPageTest@4cb2c100]" name="setUp" is-config="true" duration-ms="12702" started-at="2020-02-08T16:19:27Z" finished-at="2020-02-08T16:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="PasswordResetLinkTest()[pri:3, instance:com.digiCRMTest.autoqa.testcases.LoginPageTest@4cb2c100]" name="PasswordResetLinkTest" duration-ms="456" started-at="2020-02-08T16:19:40Z" finished-at="2020-02-08T16:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordResetLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.LoginPageTest@4cb2c100]" name="tearDown" is-config="true" duration-ms="599" started-at="2020-02-08T16:19:41Z" finished-at="2020-02-08T16:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.digiCRMTest.autoqa.testcases.LoginPageTest -->
+      <class name="com.digiCRMTest.autoqa.testcases.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.ContactsPageTest@60addb54]" name="setUp" is-config="true" duration-ms="13783" started-at="2020-02-08T16:16:57Z" finished-at="2020-02-08T16:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactsPageTitleTest()[pri:0, instance:com.digiCRMTest.autoqa.testcases.ContactsPageTest@60addb54]" name="contactsPageTitleTest" duration-ms="54" started-at="2020-02-08T16:17:11Z" finished-at="2020-02-08T16:17:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Contacts Page Header:Contacts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- contactsPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.ContactsPageTest@60addb54]" name="tearDown" is-config="true" duration-ms="611" started-at="2020-02-08T16:17:11Z" finished-at="2020-02-08T16:17:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.digiCRMTest.autoqa.testcases.ContactsPageTest -->
+      <class name="com.digiCRMTest.autoqa.testcases.HomePageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.HomePageTest@3f2a3a5]" name="SetUp" is-config="true" duration-ms="10897" started-at="2020-02-08T16:17:12Z" finished-at="2020-02-08T16:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="LoginButtonTest()[pri:0, instance:com.digiCRMTest.autoqa.testcases.HomePageTest@3f2a3a5]" name="LoginButtonTest" duration-ms="1956" started-at="2020-02-08T16:17:23Z" finished-at="2020-02-08T16:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginButtonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.HomePageTest@3f2a3a5]" name="tearDown" is-config="true" duration-ms="604" started-at="2020-02-08T16:17:25Z" finished-at="2020-02-08T16:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.HomePageTest@3f2a3a5]" name="SetUp" is-config="true" duration-ms="10740" started-at="2020-02-08T16:17:25Z" finished-at="2020-02-08T16:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:0, instance:com.digiCRMTest.autoqa.testcases.HomePageTest@3f2a3a5]" name="homePageTitleTest" duration-ms="4" started-at="2020-02-08T16:17:36Z" finished-at="2020-02-08T16:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.HomePageTest@3f2a3a5]" name="tearDown" is-config="true" duration-ms="595" started-at="2020-02-08T16:17:36Z" finished-at="2020-02-08T16:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.digiCRMTest.autoqa.testcases.HomePageTest -->
+      <class name="com.digiCRMTest.autoqa.testcases.PasswordResetPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.PasswordResetPageTest@6fb554cc]" name="SetUp" is-config="true" duration-ms="12792" started-at="2020-02-08T16:18:15Z" finished-at="2020-02-08T16:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="resetPasswordTest()[pri:0, instance:com.digiCRMTest.autoqa.testcases.PasswordResetPageTest@6fb554cc]" name="resetPasswordTest" duration-ms="1011" started-at="2020-02-08T16:18:28Z" finished-at="2020-02-08T16:18:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Thank you. If this account is registered you will receive an email with a password reset link.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- resetPasswordTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.PasswordResetPageTest@6fb554cc]" name="tearDown" is-config="true" duration-ms="706" started-at="2020-02-08T16:18:29Z" finished-at="2020-02-08T16:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.digiCRMTest.autoqa.testcases.PasswordResetPageTest -->
+      <class name="com.digiCRMTest.autoqa.testcases.UserLandingPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@614c5515]" name="setUp" is-config="true" duration-ms="12474" started-at="2020-02-08T16:18:30Z" finished-at="2020-02-08T16:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userLandingPageTitleTest()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@614c5515]" name="userLandingPageTitleTest" duration-ms="4" started-at="2020-02-08T16:18:42Z" finished-at="2020-02-08T16:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLandingPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@614c5515]" name="tearDown" is-config="true" duration-ms="597" started-at="2020-02-08T16:18:42Z" finished-at="2020-02-08T16:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@614c5515]" name="setUp" is-config="true" duration-ms="12563" started-at="2020-02-08T16:18:43Z" finished-at="2020-02-08T16:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ContactsLinkTest()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@614c5515]" name="ContactsLinkTest" duration-ms="615" started-at="2020-02-08T16:18:55Z" depends-on-methods="com.digiCRMTest.autoqa.testcases.UserLandingPageTest.userLandingPageTitleTest" finished-at="2020-02-08T16:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactsLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@614c5515]" name="tearDown" is-config="true" duration-ms="600" started-at="2020-02-08T16:18:56Z" finished-at="2020-02-08T16:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@614c5515]" name="setUp" is-config="true" duration-ms="13365" started-at="2020-02-08T16:18:57Z" finished-at="2020-02-08T16:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dealLinkTest()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@614c5515]" name="dealLinkTest" duration-ms="668" started-at="2020-02-08T16:19:10Z" depends-on-methods="com.digiCRMTest.autoqa.testcases.UserLandingPageTest.userLandingPageTitleTest" finished-at="2020-02-08T16:19:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Deals Page Header: Deals]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dealLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@614c5515]" name="tearDown" is-config="true" duration-ms="602" started-at="2020-02-08T16:19:11Z" finished-at="2020-02-08T16:19:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@614c5515]" name="setUp" is-config="true" duration-ms="14996" started-at="2020-02-08T16:19:11Z" finished-at="2020-02-08T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userNameTest()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@614c5515]" name="userNameTest" duration-ms="593" started-at="2020-02-08T16:19:26Z" depends-on-methods="com.digiCRMTest.autoqa.testcases.UserLandingPageTest.userLandingPageTitleTest" finished-at="2020-02-08T16:19:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User Name Displayednaren gundimeda]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@614c5515]" name="tearDown" is-config="true" duration-ms="602" started-at="2020-02-08T16:19:27Z" finished-at="2020-02-08T16:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.digiCRMTest.autoqa.testcases.UserLandingPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
